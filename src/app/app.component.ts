@@ -27,6 +27,7 @@ export class AppComponent {
   }
 
 
+
   showPhotos(userId: any) {
     this.albumClicked = true;
     for (let photo of this.allPhotos) {
